@@ -9,7 +9,7 @@ REMARK:
    
       a). Ke = 0.1 [V/ms^-1]
       
-      b). Kf = 0.2
+      b). Kf = 0.2 [-]
       
       c). Kt = 0.1 [Nm/A]
       
