@@ -10,7 +10,7 @@
 #define TS	(1.0/((double)FS)) //Sampling Time period in [s]
 
 /*Variables for Runge-Kuta Plant Models*/
-extern double *f1, *f2, *f3, *f4; //derivatives of Runge-Kuta & Euler model
+extern double *f1, *f2, *f3, *f4; //derivatives of Runge-Kuta
 extern double Yn1[3], Yn2[3], Yn3[3], Yn4[3]; //array for holding the variables Theta(t), omega(t), & i(t)
 
 //FUNCTION DECLARATIONS
