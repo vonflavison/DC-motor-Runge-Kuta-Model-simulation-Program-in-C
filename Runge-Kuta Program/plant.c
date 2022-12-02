@@ -13,9 +13,9 @@ double *DiffEquation(struct PlantParams plant, double *Variable, double InputVol
         {0.0, -(K_e/mL), -(mR/mL)}
     };
     double B[3] = {0.0, 0.0, (1/mL)};
-    double u = InputVolt;
+    double u = InputVolt; //i.e., u(t)
 
-    double *X = Variable; //x(t) = {Theta(t), omega(t), i(t)}
+    double *X = Variable; //i.e., x(t) = {Theta(t), omega(t), i(t)}
     static double dX[3]; //This array contains the result dx(t)/dt
 
     //comput model dx(t)/dt = Ax(t) + Bu(t)
